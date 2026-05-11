@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+  background: #f3f3f3;
+  color: #4d0d0d;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 80px;
+}
+
+/* Decorative star */
+.star {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  font-size: 4rem;
+  color: red;
+}
+
+/* Left vertical text */
+.side-text {
+  position: absolute;
+  left: 20px;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* Top right small text */
+.future-text {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 0.8rem;
+  text-align: right;
+  font-weight: 500;
+}
+
+.main-content {
+  width: 75%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 0.95;
+  letter-spacing: -2px;
+}
+
+.highlight {
+  color: #d62828;
+}
+
+.light {
+  color: #c7a9a9;
+}
+
+.main-content p {
+  width: 420px;
+  margin-top: 30px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #6b4a4a;
+}
+
+/* Image gallery using flexbox */
+.image-gallery {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.card {
+  flex: 1;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 320px;
+}
